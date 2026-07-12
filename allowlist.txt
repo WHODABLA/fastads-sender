@@ -1,7 +1,0 @@
-# One authorized chat per line
-# @gello
-@chatgc1
-@marketdistrict
-@chat8x
-@carnival_chat
-@market1x
