@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: fastads-sender
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: TG_API_ID
+        sync: false
+      - key: TG_API_HASH
+        sync: false
+      - key: SENDER_SECRET
+        sync: false
+      # Add one TG_SESSION_<account_id> var per account manually in the
+      # Render dashboard after running login.py locally for each account.
