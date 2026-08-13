@@ -1,0 +1,9 @@
+[
+  {
+    "bot_token": "YOUR_CUSTOMER_BOT_TOKEN_HERE",
+    "log_group_id": "-1001234567890",
+    "customer_name": "Customer A",
+    "expiry": "2026-09-01T00:00:00",
+    "sender_account": 1
+  }
+]
