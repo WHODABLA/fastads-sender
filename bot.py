@@ -14,7 +14,7 @@ API_HASH = os.getenv("TG_API_HASH", "")
 
 # Admin bot token comes from the environment - never hard-code secrets in source.
 #   export ADMIN_BOT_TOKEN="123456:ABC..."
-ADMIN_BOT_TOKEN = os.getenv("ADMIN_BOT_TOKEN", "8694738520:AAGJ44_L0MwdEQUbpPfy4-GJK1oLFy_oltw")
+ADMIN_BOT_TOKEN = os.getenv("ADMIN_BOT_TOKEN", "8694738520:AAHeAkvcWPvMSAwEbcWJb9i6X9P8RAdCu5I")
 # Telegram user IDs allowed to use the admin bot
 SUPER_ADMIN_IDS = [6742599309, 7643126976]
 
